@@ -34,3 +34,16 @@ p::selection {
 .test1 {
  display: block;
 }
+
+
+div+p {
+  background-color:blue;
+}
+
+div>h1 {
+  baclground-color:pink;
+}
+
+div p {
+  font-weight:100;
+}
