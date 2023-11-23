@@ -1,24 +1,24 @@
 p:hover {
-  color:green;
+  color:aqua;
   font-weight:bold;
 }
 
   
 p::before {
   content: 'Hi!';
-  color:red;
-  font-weight:600;
+  color:pink;
+  font-weight:bold;
 
 }
 
 p::after {
   content: 'Bye!';
-  color:blue;
-  font-weight:600;
+  color:purple;
+  font-weight:bold;
 }
 
 p::selection {
-  color:purple;
+  color:blue;
 
 }
 
@@ -28,9 +28,9 @@ p::selection {
 }
 
 .testing {
-  opacity: 0.5
+  opacity: 0.25;
 }
 
 .test1 {
- display: inline;
+ display: block;
 }
